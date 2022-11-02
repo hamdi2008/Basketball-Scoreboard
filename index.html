@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <main>
+      <section class="home">
+        <h3>HOME</h3>
+        <div class="score">
+          <span id="scoreHome">0</span>
+        </div>
+        <div class="btns">
+          <button id="btn-one" class="btn" onclick="plusOneHome()">+1</button>
+          <button id="btn-two" class="btn" onclick="plusTwoHome()">+2</button>
+          <button id="btn-three" class="btn" onclick="plusThreeHome()">
+            +3
+          </button>
+        </div>
+      </section>
+      <section class="guest">
+        <h3>GUEST</h3>
+        <div class="score">
+          <span id="scoreGuest">0</span>
+        </div>
+        <div class="btns">
+          <button id="btn-one" class="btn" onclick="plusOneGuest()">+1</button>
+          <button id="btn-two" class="btn" onclick="plusTwoGuest()">+2</button>
+          <button id="btn-three" class="btn" onclick="plusThreeGuest()">
+            +3
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

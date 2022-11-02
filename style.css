@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #1b244a;
+  color: #eee;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 0.2em;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
+.score {
+  background-color: #080001;
+  height: 120px;
+  width: 155px;
+  left: 82px;
+  top: 125px;
+  border-radius: 5px;
+}
+#scoreHome,
+#scoreGuest {
+  font-family: "Press Start 2P", cursive;
+  color: #f94f6d;
+  height: 120px;
+  width: 117px;
+  left: 100px;
+  top: 125px;
+  border-radius: nullpx;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 127px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.btns {
+  background-color: #1b244a;
+  width: 155px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+  margin-top: 2em;
+}
+.btn {
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  height: 45px;
+  width: 45px;
+  left: 337px;
+  top: 271px;
+  border-radius: 5px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
